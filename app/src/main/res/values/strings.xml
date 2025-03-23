@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">BinarioEducativo</string>
+    <string name="app_description">¡Aprende sobre el sistema binario y conversiones de una forma divertida!</string>
+    <string name="app_logo">Logo de la aplicación</string>
+
+    <!-- Botones principales -->
+    <string name="btn_learning">Aprender</string>
+    <string name="btn_games">Juegos</string>
+    <string name="btn_settings">Configuración</string>
+
+    <!-- Títulos -->
+    <string name="learning_title">Aprendizaje</string>
+    <string name="games_title">Juegos</string>
+    <string name="settings_title">Configuración</string>
+
+    <!-- Configuración -->
+    <string name="theme_selection">Selecciona un tema:</string>
+    <string name="theme_guinda">Tema IPN (Guinda)</string>
+    <string name="theme_azul">Tema ESCOM (Azul)</string>
+    <string name="btn_apply">Aplicar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- Tabs -->
+    <string name="tab_binary_system">Sistema Binario</string>
+    <string name="tab_conversions">Conversiones</string>
+
+    <!-- Contenido binario -->
+    <string name="binary_title">Sistema Binario</string>
+    <string name="binary_concept_desc">Concepto del sistema binario</string>
+    <string name="binary_intro">El sistema binario es un sistema de numeración que utiliza solo dos dígitos: 0 y 1. Es la base de toda la tecnología digital moderna.</string>
+    <string name="binary_explanation">En el sistema binario, cada posición representa una potencia de 2, comenzando desde la derecha con 2⁰ (que es 1), luego 2¹ (que es 2), 2² (que es 4), y así sucesivamente.</string>
+    <string name="binary_examples_title">Ejemplos de números binarios</string>
+    <string name="decimal">Decimal</string>
+    <string name="binary">Binario</string>
+    <string name="binary_uses_title">¿Para qué se usa el sistema binario?</string>
+    <string name="binary_uses_content">Las computadoras utilizan el sistema binario porque la electrónica básica puede representar fácilmente dos estados: encendido (1) o apagado (0). Todo lo que ves en una computadora, desde texto hasta imágenes y videos, está almacenado como combinaciones de 0s y 1s.</string>
+
+    <!-- Contenido conversiones -->
+    <string name="conversion_title">Conversiones</string>
+    <string name="conversion_concept_desc">Concepto de conversión entre sistemas numéricos</string>
+    <string name="conversion_intro">Convertir entre sistemas numéricos es una habilidad importante. Veamos cómo podemos convertir entre los sistemas decimal (base 10) y binario (base 2).</string>
+    <string name="decimal_to_binary_title">De Decimal a Binario</string>
+    <string name="decimal_to_binary_steps">Para convertir un número decimal a binario:\n\n1. Divide el número entre 2 y anota el residuo.\n2. Divide el resultado de la división anterior entre 2 y anota el residuo.\n3. Continúa dividiendo hasta llegar a 0.\n4. Lee los residuos de abajo hacia arriba para obtener el número binario.</string>
+    <string name="example_title">Ejemplo: Convertir 13 a binario</string>
+    <string name="example_conversion">Ejemplo de conversión decimal a binario</string>
+    <string name="example_explanation">13 ÷ 2 = 6 con residuo 1\n6 ÷ 2 = 3 con residuo 0\n3 ÷ 2 = 1 con residuo 1\n1 ÷ 2 = 0 con residuo 1\n\nLeyendo los residuos de abajo hacia arriba: 1101\n\nPor lo tanto, 13 en decimal = 1101 en binario</string>
+    <string name="binary_to_decimal_title">De Binario a Decimal</string>
+    <string name="binary_to_decimal_steps">Para convertir un número binario a decimal:\n\n1. Asigna a cada posición su valor en potencias de 2, comenzando desde la derecha con 2⁰.\n2. Multiplica cada dígito binario (0 o 1) por el valor de su posición.\n3. Suma todos los resultados.</string>
+    <string name="example_bin_to_dec">Ejemplo: Convertir 1011 a decimal</string>
+    <string name="example_conversion_bin_to_dec">Ejemplo de conversión binario a decimal</string>
+    <string name="example_bin_to_dec_explanation">1 × 2³ = 1 × 8 = 8\n0 × 2² = 0 × 4 = 0\n1 × 2¹ = 1 × 2 = 2\n1 × 2⁰ = 1 × 1 = 1\n\nSumando todos: 8 + 0 + 2 + 1 = 11\n\nPor lo tanto, 1011 en binario = 11 en decimal</string>
+    <string name="practice_title">¡Hora de practicar!</string>
+    <string name="practice_suggestion">¿Listo para probar tus conocimientos? Ve a la sección de Juegos para practicar lo que has aprendido.</string>
+    <string name="go_to_games">Ir a Juegos</string>
+
+    <!-- Juegos -->
+    <string name="game1_title">Conversor Binario</string>
+    <string name="game1_description">Convierte números entre decimal y binario. ¡Pon a prueba tus habilidades de conversión!</string>
+    <string name="game2_title">Interruptores Binarios</string>
+    <string name="game2_description">Usa interruptores para formar números binarios. ¡Divertido y educativo!</string>
+    <string name="game_binary_converter">Ícono juego conversor binario</string>
+    <string name="game_binary_switch">Ícono juego interruptores binarios</string>
+    <string name="btn_play">Jugar</string>
+
+    <!-- Juego Conversor -->
+    <string name="converter_game_instructions">Convierte cada número al sistema de numeración indicado. Tendrás 10 preguntas alternando entre conversiones de decimal a binario y de binario a decimal.</string>
+    <string name="sample_question">Convierte el número 10 a binario</string>
+    <string name="convert_to_binary">Convierte el número %d a binario</string>
+    <string name="convert_to_decimal">Convierte el número %s a decimal</string>
+    <string name="your_answer">Tu respuesta</string>
+    <string name="submit_answer">Enviar respuesta</string>
+    <string name="enter_answer">Por favor, ingresa una respuesta</string>
+    <string name="correct_feedback">¡Correcto! ¡Muy bien!</string>
+    <string name="wrong_feedback_binary">Incorrecto. La respuesta correcta es: %s</string>
+    <string name="wrong_feedback_decimal">Incorrecto. La respuesta correcta es: %d</string>
+    <string name="invalid_number">Por favor, ingresa un número válido</string>
+    <string name="score_text">Puntuación: %d/%d</string>
+    <string name="excellent_score">¡Excelente! Obtuviste %d de %d puntos.</string>
+    <string name="good_score">¡Buen trabajo! Obtuviste %d de %d puntos.</string>
+    <string name="keep_practicing">Sigue practicando. Obtuviste %d de %d puntos.</string>
+
+    <!-- Juego Interruptores -->
+    <string name="switch_game_instructions">Crea el número decimal objetivo utilizando los interruptores binarios. Activa (1) o desactiva (0) cada interruptor para formar el número correcto en binario.</string>
+    <string name="target_number">Número objetivo:</string>
+    <string name="your_binary_number">Tu número binario:</string>
+    <string name="check_answer">Verificar respuesta</string>
+    <string name="wrong_feedback_switch">Incorrecto. La respuesta correcta es: %s</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Guinda (IPN) - Modo Oscuro -->
+    <color name="guinda_primary">#c62c43</color>
+    <color name="guinda_primary_dark">#8b1f30</color>
+    <color name="guinda_accent">#ff5f6d</color>
+    <color name="guinda_background">#261215</color>
+    <color name="guinda_text">#f8f2f3</color>
+
+    <!-- Tema Azul (ESCOM) - Modo Oscuro -->
+    <color name="azul_primary">#0077cc</color>
+    <color name="azul_primary_dark">#003b7a</color>
+    <color name="azul_accent">#4da6ff</color>
+    <color name="azul_background">#0a1627</color>
+    <color name="azul_text">#f2f7fc</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Base para la app -->
+    <style name="Base.Theme.BinarioEducativo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Atributos comunes -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Tema Guinda -->
+    <style name="Theme.BinarioEducativo.Guinda" parent="Base.Theme.BinarioEducativo">
+        <item name="colorPrimary">@color/guinda_primary</item>
+        <item name="colorPrimaryVariant">@color/guinda_primary_dark</item>
+        <item name="colorAccent">@color/guinda_accent</item>
+        <item name="android:colorBackground">@color/guinda_background</item>
+        <item name="android:textColor">@color/guinda_text</item>
+    </style>
+
+    <!-- Tema Azul -->
+    <style name="Theme.BinarioEducativo.Azul" parent="Base.Theme.BinarioEducativo">
+        <item name="colorPrimary">@color/azul_primary</item>
+        <item name="colorPrimaryVariant">@color/azul_primary_dark</item>
+        <item name="colorAccent">@color/azul_accent</item>
+        <item name="android:colorBackground">@color/azul_background</item>
+        <item name="android:textColor">@color/azul_text</item>
+    </style>
+
+    <!-- Tema predeterminado (usaremos Guinda) -->
+    <style name="Theme.BinarioEducativo" parent="Theme.BinarioEducativo.Guinda" />
+</resources>
