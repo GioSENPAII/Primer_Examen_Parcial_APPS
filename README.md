@@ -35,7 +35,7 @@ BinarioEducativo es una herramienta educativa diseñada para introducir a niños
 
 1. Clona este repositorio:
 ```
-git clone https://github.com/tu-usuario/BinarioEducativo.git
+git clone git@github.com:GioSENPAII/Primer_Examen_Parcial_APPS.git
 ```
 
 2. Abre el proyecto en Android Studio.
@@ -70,7 +70,7 @@ git clone https://github.com/tu-usuario/BinarioEducativo.git
 
 Giovanni Javier Longoria Bunoust - glongoria.3a.is@gmail.com
 
-Enlace del proyecto: [https://github.com/GioSENPAII/BinarioEducativo]
+Enlace del proyecto: git@github.com:GioSENPAII/Primer_Examen_Parcial_APPS.git
 
 ## 📄 Licencia
 
