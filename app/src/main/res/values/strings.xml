@@ -74,10 +74,10 @@
     <string name="wrong_feedback_binary">Incorrecto. La respuesta correcta es: %s</string>
     <string name="wrong_feedback_decimal">Incorrecto. La respuesta correcta es: %d</string>
     <string name="invalid_number">Por favor, ingresa un número válido</string>
-    <string name="score_text">Puntuación: %d/%d</string>
-    <string name="excellent_score">¡Excelente! Obtuviste %d de %d puntos.</string>
-    <string name="good_score">¡Buen trabajo! Obtuviste %d de %d puntos.</string>
-    <string name="keep_practicing">Sigue practicando. Obtuviste %d de %d puntos.</string>
+    <string name="score_text" formatted="false">Puntuación: %d/%d</string>
+    <string name="excellent_score" formatted="false">¡Excelente! Obtuviste %d de %d puntos.</string>
+    <string name="good_score" formatted="false">¡Buen trabajo! Obtuviste %d de %d puntos.</string>
+    <string name="keep_practicing" formatted="false">Sigue practicando. Obtuviste %d de %d puntos.</string>
 
     <!-- Juego Interruptores -->
     <string name="switch_game_instructions">Crea el número decimal objetivo utilizando los interruptores binarios. Activa (1) o desactiva (0) cada interruptor para formar el número correcto en binario.</string>

@@ -43,7 +43,7 @@ class BinarySwitchGameActivity : AppCompatActivity() {
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.setNavigationOnClickListener {
-            onBackPressed()
+            finish()
         }
 
         // Inicializar vistas

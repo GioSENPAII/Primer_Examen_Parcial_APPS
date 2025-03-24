@@ -26,7 +26,7 @@ class LearningActivity : AppCompatActivity() {
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.setNavigationOnClickListener {
-            onBackPressed()
+            finish()
         }
 
         // Configurar ViewPager y TabLayout
